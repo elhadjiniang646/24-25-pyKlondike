@@ -1,12 +1,20 @@
 public class Carta {
+    private int palo;
+    private int numero;
+    private boolean bocaArriba;
 
     public Carta(int palo, int numero) {
-        // TODO Auto-generated constructor stub
+      this.palo = palo;
+      this.numero = numero;
+      bocaArriba = false; 
     }
 
     public void mostrar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'mostrar'");
+        String numero = "?";
+        String palo = "?";
+        
+
+
     }
 
     public void voltear() {
