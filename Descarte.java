@@ -1,4 +1,5 @@
 public class Descarte {
+    private Carta 
 
     private Carta[] cartas;
     private int ultima;
